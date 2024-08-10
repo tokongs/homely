@@ -68,7 +68,7 @@ type State struct {
 
 type Event struct {
 	Type string `json:"type"`
-	Data string `json:"data"`
+	Data EventData `json:"data"`
 }
 
 type EventData struct {
